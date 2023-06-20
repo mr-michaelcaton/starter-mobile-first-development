@@ -27,3 +27,40 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+.group {
+display: flex;
+flex-direction: row;
+padding: 20px;
+}
+
+.group-carousel {
+  background-color: #36393B;
+  display:flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.group-detail-carousel {
+  display:flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.item{
+  flex:1;
+  margin: 10px;
+}
+
+.item-double{
+  flex:2;
+  margin: 10px;
+}
+
+.item-carousel{
+  flex:1;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
